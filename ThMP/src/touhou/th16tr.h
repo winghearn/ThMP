@@ -4,6 +4,17 @@
 
 #define TH16TR_TRACK_NUMBER 8
 
+const std::map<int, std::string> nameMap_TH16TR = {
+    {1, "th16_01.wav"},
+    {2, "th16_02.wav"},
+    {3, "th16_03.wav"},
+    {4, "th16_04.wav"},
+    {5, "th16_05.wav"},
+    {6, "th16_06.wav"},
+    {7, "th16_07.wav"},
+    {8, "th128_08.wav"}
+};
+
 const std::map<std::pair<int, std::string>, unsigned int> trackMap_TH16TR = {
     {std::make_pair(1, "INTRO_OFFSET"), 0x10},       
     {std::make_pair(1, "INTRO_SIZE"), 0x11EC00},

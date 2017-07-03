@@ -4,6 +4,7 @@
 
 #define TH13_TRACK_NUMBER 31
 
+/*
 #define TH13_FILENAME_01 "th13_00.wav"
 #define TH13_FILENAME_02 "th13_01.wav"
 #define TH13_FILENAME_03 "th13_01b.wav"
@@ -159,6 +160,7 @@
 #define TH13_INTRO_OFFSET_31 0x1CECC2D8
 #define TH13_INTRO_SIZE_31 0x1CACC8
 #define TH13_TOTAL_SIZE_31 0x66DCC0
+*/
 
 const std::map<int, std::string> nameMap_TH13 = {
     {1, "th13_00.wav"},

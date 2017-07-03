@@ -3,7 +3,6 @@
 #define TOUHOU_H
 
 #include <map>
-#include <utility>
 #include "th07.h"
 #include "th08.h"
 #include "th09.h"
